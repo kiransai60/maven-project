@@ -28,6 +28,17 @@
       <url>file:///tmp/maven-project-site</url>
     </site>
   </distributionManagement>
+         
+  <repository>
+  <id>sai</id>
+  <url>https://pkgs.dev.azure.com/kokkantisaikiran/sai/_packaging/sai/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>       
 
   <build>
     <plugins>
